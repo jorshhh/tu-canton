@@ -6,7 +6,6 @@ use App\Http\Models\User;
 use App\Http\Models\Team;
 use App\Http\Models\Client;
 
-
 class InitialSeeder extends Seeder
 {
     /**
@@ -17,9 +16,6 @@ class InitialSeeder extends Seeder
     public function run()
     {
 
-
-
-        dd("test");
         $team1 = new Team;
         $team1->name = "Equipo 1";
         $team1->save();
