@@ -43,5 +43,5 @@ php artisan key:generate
 
 Creamos la base de datos y hacemos el seeding
 ```
-php artisan migrate
+php artisan migrate --seed
 ```
