@@ -14,9 +14,10 @@ Vue.use(VueRouter);
 
 import VueAxios from 'vue-axios';
 import axios from 'axios';
+import Vuetify from 'vuetify';
 
 import App from './App.vue';
-Vue.use(VueAxios, axios);
+Vue.use(VueAxios, axios, Vuetify);
 
 import { routes } from './routes/routes';
 
