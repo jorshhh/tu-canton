@@ -45,3 +45,10 @@ Creamos la base de datos y hacemos el seeding
 ```
 php artisan migrate --seed
 ```
+
+Cambiamos los permisos donde es necesario
+```
+chmod -R 775 storage
+chmod -R 775 bootstrap/cache
+```
+
